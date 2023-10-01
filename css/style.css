@@ -34,7 +34,7 @@ body /* 1 */{
     width: 90%;
     margin: 0 auto;
     color: #000;
-    font-family: 'Comfortaa', cursive;
+    font-family: Comfortaa, 'Comic Sans MS', cursive;
     font-weight: 700;
     background-color: #d38338;
     position: fixed;
@@ -101,7 +101,7 @@ body /* 1 */{
 }
 
 .header__banner /* 10 */{
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Philosopher', Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
@@ -153,14 +153,14 @@ img.header__img /* 11 */{
 
 .article__heading, /* 10 */
 .list__heading /* 10 */{
-    font-family: 'Philosopher', sans-serif;
+    font-family: 'Philosopher', Arial, Helvetica, sans-serif;
     font-size: 2rem;
     text-align: center;
     padding: 5px 0;
 }
 
 .article__text /* 10 */{
-    font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa','Comic Sans MS', cursive;
     text-indent: 3%;
     padding: 3px 0;
 }
