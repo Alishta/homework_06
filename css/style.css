@@ -1,36 +1,36 @@
 *,
-::before, /*1*/
-::after {
+::before, /* 1 */
+::after /* 1 */ {
     margin: 0;
     padding: 0;
     border: 0;
     box-sizing: border-box;
 }
 
-html {
+html /* 1 */{
     font-size: 16px;
 }
 
-ol, ul {
+ol, ul /* 1 */{
 	list-style: none;
 }
 
-body {
+body /* 1 */{
     font-size: 1rem;
     background-color: #cdcdcd;
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
-.wrapper {
+.wrapper /* 10 */{
     width: 90%;
     margin: 0 auto;
 }
 
-.header .nav {
+.header .nav /* 20 */{
     display: flex;
 }
 
-.nav {
+.nav /* 10 */{
     width: 100%;
     align-items: center;
     justify-content: space-between;
@@ -43,12 +43,12 @@ body {
     /* position: fixed; */
 }
 
-.nav a {
+.nav a /* 11 */{
     text-decoration: none;
 }
 
-.nav__item,
-.subnav__item {
+.nav__item, /* 10 */
+.subnav__item  /* 10 */{
     display: inline-block;
     width: 100%;
     font-size: .8rem;
@@ -56,8 +56,8 @@ body {
     text-align: center;
 }
 
-.nav__link,
-.subnav__link {
+.nav__link, /* 10 */
+.subnav__link /* 10 */{
     display: block;
     text-decoration: none;
     line-height: 2rem;
@@ -65,19 +65,19 @@ body {
     text-transform: uppercase;
 }
 
-.nav__link:hover,
-.subnav__link:hover {
+.nav__link:hover, /* 20 */
+.subnav__link:hover /* 20 */{
     display: block;
     background-color: #9a3240;
     text-decoration: underline;
 }
 
-.nav__link:visited,
-.subnav__link:visited {
+.nav__link:visited, /* 20 */
+.subnav__link:visited /* 10 */{
     color: #000;
 }
 
-.subnav {
+.subnav /* 10 */{
     display: none;
     width: 100%;
     position: absolute;
@@ -85,18 +85,18 @@ body {
     z-index: 10;   
 }
 
-.nav__item:hover .subnav {
+.nav__item:hover .subnav /* 30 */{
     display: block;
 }
 
-.subnav__link {
+.subnav__link /* 10 */{
     white-space: nowrap;
     display: block;
     line-height: 2rem;
     
 }
 
-.header__banner {
+.header__banner /* 10 */{
     font-family: 'Philosopher', sans-serif;
     display: flex;
     flex-direction: row;
@@ -104,13 +104,13 @@ body {
     align-items: start;
 }
 
-img.header__img {
+img.header__img /* 11 */{
     width: 100%;
     position: relative;
     z-index: 2;
 }
 
-.header__heading {
+.header__heading /* 10 */{
     text-transform: uppercase;
     font-size: 3rem;
     text-shadow: 3px 3px 3px #000;
@@ -118,7 +118,7 @@ img.header__img {
     font-family: 'Philosopher', sans-serif;
 }
 
-.header__banner-text {
+.header__banner-text /* 10 */{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -132,55 +132,55 @@ img.header__img {
     z-index: 3;
 }
 
-.header__banner-text .banner-text {
+.header__banner-text .banner-text /* 20 */{
     width:60%;
 }
 
 
-.banner-text {
+.banner-text /* 10 */{
     font-size: 1.5rem;
     font-weight: 600;
     text-shadow: 4px 4px 5px #000;
 }
 
-.main {
+.main /* 10 */{
     padding: 10px 0;
 }
 
-.article__heading,
-.list__heading {
+.article__heading, /* 10 */
+.list__heading /* 10 */{
     font-family: 'Philosopher', sans-serif;
     font-size: 2rem;
     text-align: center;
     padding: 5px 0;
 }
 
-.article__text {
+.article__text /* 10 */{
     font-family: 'Comfortaa', cursive;
     text-indent: 3%;
     padding: 3px 0;
 }
 
-.main__link {
+.main__link /* 10 */{
     text-decoration: none;
     color: #073e1a;
 }
 
-.list__heading {
+.list__heading /* 10 */{
     font-size: 1.5rem;
     text-align: left;
 }
 
-.list__item {
+.list__item /* 10 */{
     list-style-type: square;
     list-style-position: inside;
 }
 
-.list__item--mod {
+.list__item--mod /* 10 */{
     font-weight: 700;
 }
 
-.footer {
+.footer /* 10 */{
     display: flex;
     justify-content: space-around;
     margin: 0 auto;
@@ -188,16 +188,16 @@ img.header__img {
     background-color: #fff;
 }
 
-.footer__item {
+.footer__item /* 10 */{
     width: 50%;
     display: flex;
     flex-direction: row;
     gap: 10%;
 }
 
-.footer__link,
-.footer__contacts,
-.copy {
+.footer__link, /* 10 */
+.footer__contacts, /* 10 */
+.copy /* 10 */{
     color: #434343;
     font-size: 0.7rem;
     text-decoration: none;
