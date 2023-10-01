@@ -166,8 +166,15 @@ img.header__img /* 11 */{
 }
 
 .main__link /* 10 */{
+    display: block;
+    width: 70%;
+    text-align: center;
     text-decoration: none;
-    color: #073e1a;
+    color:rgb(251, 229, 234);
+    background-color: #434343;
+    margin: 0 auto;
+    padding: 5px 0;
+    border-radius: 7px;
 }
 
 .list__heading /* 10 */{
