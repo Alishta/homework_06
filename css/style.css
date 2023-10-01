@@ -62,6 +62,10 @@ body /* 1 */{
     background-color: #d38338;
     text-transform: uppercase;
     transform: scale(1);
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
     transition: all 1s;
 }
 
