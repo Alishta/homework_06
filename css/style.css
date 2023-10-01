@@ -45,6 +45,14 @@ body /* 1 */{
     text-decoration: none;
 }
 
+.subnav /* 10 */{
+    display: none;
+    width: 100%;
+    position: absolute;
+    line-height: 2rem;
+    z-index: 10;   
+}
+
 .nav__item, /* 10 */
 .subnav__item  /* 10 */{
     display: inline-block;
@@ -59,6 +67,7 @@ body /* 1 */{
     display: block;
     text-decoration: none;
     line-height: 2rem;
+    white-space: nowrap;
     background-color: #d38338;
     text-transform: uppercase;
     transform: scale(1);
@@ -69,6 +78,9 @@ body /* 1 */{
     transition: all 1s;
 }
 
+.nav__item:hover .subnav /* 30 */{
+    display: block;
+}
 
 .nav__link:hover, /* 20 */
 .subnav__link:hover /* 20 */{
@@ -79,25 +91,6 @@ body /* 1 */{
 .nav__link:visited, /* 20 */
 .subnav__link:visited /* 20 */{
     color: #000;
-}
-
-.subnav /* 10 */{
-    display: none;
-    width: 100%;
-    position: absolute;
-    line-height: 2rem;
-    z-index: 10;   
-}
-
-.nav__item:hover .subnav /* 30 */{
-    display: block;
-}
-
-.subnav__link /* 10 */{
-    white-space: nowrap;
-    display: block;
-    line-height: 2rem;
-    
 }
 
 .header__banner /* 10 */{
@@ -115,14 +108,6 @@ img.header__img /* 11 */{
     z-index: 2;
 }
 
-.header__heading /* 10 */{
-    text-transform: uppercase;
-    font-size: 3rem;
-    text-shadow: 3px 3px 3px #000;
-    text-align: center;
-    font-family: 'Philosopher', sans-serif;
-}
-
 .header__banner-text /* 10 */{
     display: flex;
     flex-direction: column;
@@ -135,6 +120,14 @@ img.header__img /* 11 */{
     color: rgb(251, 229, 234);
     position: absolute;
     z-index: 3;
+}
+
+.header__heading /* 10 */{
+    text-transform: uppercase;
+    font-size: 3rem;
+    text-shadow: 3px 3px 3px #000;
+    text-align: center;
+    font-family: 'Philosopher', sans-serif;
 }
 
 .header__banner-text .banner-text /* 20 */{
