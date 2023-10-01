@@ -31,12 +31,14 @@ body /* 1 */{
 }
 
 .nav /* 10 */{
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
     color: #000;
     font-family: 'Comfortaa', cursive;
     font-weight: 700;
     background-color: #d38338;
+    position: fixed;
+    z-index: 5;
 }
 
 .nav a /* 11 */{
@@ -68,8 +70,6 @@ body /* 1 */{
 .subnav__link:hover /* 20 */{
     background-color: #9a3240;
     text-decoration: underline;
-    /* transform: scale(1);
-    transition: all 1s; */
 }
 
 .nav__link:visited, /* 20 */
@@ -102,6 +102,7 @@ body /* 1 */{
     flex-direction: row;
     justify-content: space-between; 
     align-items: start;
+    padding-top: 20px;
 }
 
 img.header__img /* 11 */{
