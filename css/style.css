@@ -32,15 +32,11 @@ body /* 1 */{
 
 .nav /* 10 */{
     width: 100%;
-    align-items: center;
-    justify-content: space-between;
-    z-index: 10;
     margin: 0 auto;
     color: #000;
     font-family: 'Comfortaa', cursive;
     font-weight: 700;
     background-color: #d38338;
-    /* position: fixed; */
 }
 
 .nav a /* 11 */{
@@ -63,17 +59,21 @@ body /* 1 */{
     line-height: 2rem;
     background-color: #d38338;
     text-transform: uppercase;
+    transform: scale(1);
+    transition: all 1s;
 }
+
 
 .nav__link:hover, /* 20 */
 .subnav__link:hover /* 20 */{
-    display: block;
     background-color: #9a3240;
     text-decoration: underline;
+    /* transform: scale(1);
+    transition: all 1s; */
 }
 
 .nav__link:visited, /* 20 */
-.subnav__link:visited /* 10 */{
+.subnav__link:visited /* 20 */{
     color: #000;
 }
 
@@ -135,7 +135,6 @@ img.header__img /* 11 */{
 .header__banner-text .banner-text /* 20 */{
     width:60%;
 }
-
 
 .banner-text /* 10 */{
     font-size: 1.5rem;
